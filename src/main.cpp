@@ -1,9 +1,9 @@
-#include <iostream>
-#include "Game.h"
+#include "GUI/GameWindow.h"
 
 
 int main() {
-    Game game;
+    GameWindow gameWindow;
+    gameWindow.run();
 
     return 0;
 } 

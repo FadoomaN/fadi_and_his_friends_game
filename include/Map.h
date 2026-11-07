@@ -5,6 +5,7 @@
 #include "Room.h"
 
 struct Map {
+    int id;
     std::string name;
     std::string description;
 
